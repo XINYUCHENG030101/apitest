@@ -1,0 +1,8 @@
+2026-01-20 15:16:37,517 INFO [utils.log_util] [request_util.py (post:17)]-接口urlhttp://115.190.63.202:9090/user/login
+2026-01-20 15:16:37,517 INFO [utils.log_util] [request_util.py (post:18)]-接口信息{'data': {'username': 'zhangsan', 'password': '123456'}}
+2026-01-20 15:16:37,553 INFO [utils.log_util] [request_util.py (post:20)]-接口状态码200
+2026-01-20 15:16:37,554 INFO [utils.log_util] [request_util.py (post:21)]-接口返回值{"code":"SUCCESS","errMsg":"","data":"eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MywidXNlck5hbWUiOiJ6aGFuZ3NhbiIsImV4cCI6MTc2ODg5NjkxMX0.ag3lwE16VENiQHtuXAUtg5kcZHm6N0ZxiyuZrLg1JRo"}
+2026-01-20 15:46:50,251 INFO [utils.log_util] [request_util.py (post:17)]-接口urlhttp://115.190.63.202:9090/user/login
+2026-01-20 15:46:50,266 INFO [utils.log_util] [request_util.py (post:18)]-接口信息{'data': {'username': 'zhangsan', 'password': '123456'}}
+2026-01-20 15:46:50,299 INFO [utils.log_util] [request_util.py (post:20)]-接口状态码200
+2026-01-20 15:46:50,299 INFO [utils.log_util] [request_util.py (post:21)]-接口返回值{"code":"SUCCESS","errMsg":"","data":"eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MywidXNlck5hbWUiOiJ6aGFuZ3NhbiIsImV4cCI6MTc2ODg5ODcyNH0.YpejoIiOil_zTGgZ2o8hOHFfsQCdPC4EKJpvyl2M_ak"}
