@@ -1,0 +1,23 @@
+login_failure:
+  - id: wrong-password
+    username: zhangsan
+    password: "123"
+    expected_message: "密码错误"
+  - id: unknown-user
+    username: zhangsa
+    password: "123456"
+    expected_message: "用户不存在"
+  - id: empty-username
+    username: ""
+    password: "123456"
+    expected_message: "账号或密码不能为空"
+  - id: empty-password
+    username: zhangsan
+    password: ""
+    expected_message: "账号或密码不能为空"
+
+login_success:
+  - id: default-user
+    account: default
+  - id: secondary-user
+    account: secondary

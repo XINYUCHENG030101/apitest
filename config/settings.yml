@@ -1,0 +1,61 @@
+active_env: test
+
+environments:
+  test:
+    base_url: "http://115.190.63.202:9090"
+    verify_ssl: false
+    timeout: 10
+  staging:
+    base_url: "https://staging.example.com"
+    verify_ssl: true
+    timeout: 15
+
+accounts:
+  default:
+    username: "zhangsan"
+    password: "123456"
+  secondary:
+    username: "lisi"
+    password: "123456"
+
+auth:
+  token_header: "User_token_header"
+
+endpoints:
+  user:
+    login: "/user/login"
+    info: "/user/getInfo"
+    author: "/user/getAuthorInfo"
+  blog:
+    list: "/blog/getList"
+    detail: "/blog/getDetail"
+    add: "/blog/add"
+
+database:
+  enabled: false
+  driver: "mysql"
+  host: "127.0.0.1"
+  port: 3306
+  database: "blog"
+  username: "root"
+  password: ""
+  charset: "utf8mb4"
+
+report:
+  allure_results: "reports/allure-results"
+  allure_report: "reports/allure-report"
+  clean_results: true
+
+run:
+  paths:
+    - "cases"
+  markers: ""
+  maxfail: 1
+  verbose: true
+  extra_args: []
+
+logging:
+  level: "INFO"
+  directory: "logs"
+  max_bytes: 5242880
+  backup_count: 5

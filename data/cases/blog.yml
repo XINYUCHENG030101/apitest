@@ -1,0 +1,4 @@
+create_blog:
+  - id: normal-blog
+    title: "接口自动化测试博客"
+    content: "由 pytest + requests + allure 自动创建"
